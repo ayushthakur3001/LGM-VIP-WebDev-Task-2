@@ -1,7 +1,8 @@
 import './Navbar.css'
+import { useState} from "react";
 function Navbar({clickedInNav}) {
     
-
+    
     const handleClick = ()=>{
         
         clickedInNav(true);

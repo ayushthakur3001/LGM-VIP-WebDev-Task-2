@@ -1,9 +1,11 @@
 import "./Loader.css";
-function Loader() {
+function Loader({load}) {
   return (
+    (load) ?
     <div className="containerL">
       <div className="loader"></div>
     </div>
+    :""
   );
 }
 
