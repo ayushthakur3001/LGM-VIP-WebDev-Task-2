@@ -1,3 +1,14 @@
+.containerL{
+    width: 80%;
+    height: 75vh;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
 .loader {
     border: 12px solid #822659;
     border-top: 12px solid #E4BAD4;
@@ -6,16 +17,13 @@
     height: 80px;
     animation: spin 20s linear infinite;
     transform: translate(-10%, -10%);
-    /* position: absolute;
-    left: 50%;
-    top: 40%; */
-    /* top: 120px; */
+    
   }
   
-  @keyframes spin {
+  /* @keyframes spin {
     0% { transform:translate(-50%, -50%) rotate(0deg); }
     25% { transform:translate(-40%, -40%) rotate(80deg); }
     50% { transform:translate(-30%, -30%) rotate(160deg); }
     75% { transform:translate(-20%, -20%) rotate(2480deg); }
     100% { transform:translate(-10%, -10%) rotate(360deg); }
-  }
+  } */

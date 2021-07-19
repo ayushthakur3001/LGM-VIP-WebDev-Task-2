@@ -4,37 +4,40 @@ import { useState, useEffect } from "react";
 import Loader from "../Loader/Loader";
 import Axios from 'axios';
 
-function Container({click}) {
+function Container(props) {
   
     const [users, setUsers] = useState(null);
-    const [loader, setLoader]  = useState(false);
+    
     
 
     const getUsers = () =>{
-        setLoader(true);
+        props.getUserDone(true)
+        
         Axios.get("https://reqres.in/api/users?page=1")
             .then((response) =>{
                 setUsers(response.data.data);
-
+                
                 
             })
-            setLoader(false);
+        props.getUserO(false)
+        
+            
     }
 
     useEffect(() => {
-        click &&
+        props.click &&
          getUsers();
-    }, [click])
+    }, [props.click])
 
   return (
     <div className="container">
       {users&&users.map((data) => {
           return(
-        <Card first_name={data.first_name} last_name={data.last_name} 
+        <Card key={data.id} first_name={data.first_name} last_name={data.last_name} 
         email={data.email} avatar={data.avatar} />
           )
       })}
-      <Loader show={loader}/>
+      
     </div>
   );
 }

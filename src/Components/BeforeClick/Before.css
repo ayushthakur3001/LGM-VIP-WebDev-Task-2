@@ -9,6 +9,11 @@
     flex-wrap: wrap;
     padding: 40px 20px;
     height: 73vh;
+    
+}
+h1{
+    color: white;
+    font-size: 50px;
 }
 h2{
     color: white;
@@ -20,7 +25,18 @@ h3{
 }
 span{
     font-size: 30px;
-    color: crimson;
+    color: black;
     font-style: italic;
-    text-decoration: underline 2px rgb(60, 206, 198);
+    
+}
+li{
+    font-size: 20px;
+    list-style-type: square;
+    font-weight: 600;
+}
+
+@media (max-width: 500px){
+    ol{
+        display: none;
+    }
 }
