@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/LGM-VIP-WebDev-Task-2/static/css/main.08e432d7.chunk.css",
-    "main.js": "/LGM-VIP-WebDev-Task-2/static/js/main.6f88dd0c.chunk.js",
-    "main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/main.6f88dd0c.chunk.js.map",
+    "main.css": "/LGM-VIP-WebDev-Task-2/static/css/main.84f696be.chunk.css",
+    "main.js": "/LGM-VIP-WebDev-Task-2/static/js/main.a86ad9de.chunk.js",
+    "main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/main.a86ad9de.chunk.js.map",
     "runtime-main.js": "/LGM-VIP-WebDev-Task-2/static/js/runtime-main.5a571155.js",
     "runtime-main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/runtime-main.5a571155.js.map",
     "static/js/2.66cce5b7.chunk.js": "/LGM-VIP-WebDev-Task-2/static/js/2.66cce5b7.chunk.js",
     "static/js/2.66cce5b7.chunk.js.map": "/LGM-VIP-WebDev-Task-2/static/js/2.66cce5b7.chunk.js.map",
     "index.html": "/LGM-VIP-WebDev-Task-2/index.html",
-    "static/css/main.08e432d7.chunk.css.map": "/LGM-VIP-WebDev-Task-2/static/css/main.08e432d7.chunk.css.map",
+    "static/css/main.84f696be.chunk.css.map": "/LGM-VIP-WebDev-Task-2/static/css/main.84f696be.chunk.css.map",
     "static/js/2.66cce5b7.chunk.js.LICENSE.txt": "/LGM-VIP-WebDev-Task-2/static/js/2.66cce5b7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a571155.js",
     "static/js/2.66cce5b7.chunk.js",
-    "static/css/main.08e432d7.chunk.css",
-    "static/js/main.6f88dd0c.chunk.js"
+    "static/css/main.84f696be.chunk.css",
+    "static/js/main.a86ad9de.chunk.js"
   ]
 }
