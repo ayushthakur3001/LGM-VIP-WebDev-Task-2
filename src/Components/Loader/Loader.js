@@ -2,9 +2,7 @@ import "./Loader.css";
 function Loader({load}) {
   return (
     (load) ?
-    <div className="containerL">
-      <div className="loader"></div>
-    </div>
+    <div className="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     :""
   );
 }

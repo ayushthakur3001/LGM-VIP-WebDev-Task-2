@@ -14,7 +14,7 @@ function Container(props) {
     const getUsers = () =>{
         
       setLoader(true);
-        Axios.get("https://reqres.in/api/users?page=1")
+        Axios.get("https://reqres.in/api/users?page=1", {timeout: 1100})
             .then((response) =>{
                 setUsers(response.data.data);
                 setLoader(false);
