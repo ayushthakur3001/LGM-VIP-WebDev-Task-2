@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LGM-VIP-WebDev-Task-2/static/css/main.84f696be.chunk.css",
-    "main.js": "/LGM-VIP-WebDev-Task-2/static/js/main.a86ad9de.chunk.js",
-    "main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/main.a86ad9de.chunk.js.map",
+    "main.js": "/LGM-VIP-WebDev-Task-2/static/js/main.ea95a9ab.chunk.js",
+    "main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/main.ea95a9ab.chunk.js.map",
     "runtime-main.js": "/LGM-VIP-WebDev-Task-2/static/js/runtime-main.5a571155.js",
     "runtime-main.js.map": "/LGM-VIP-WebDev-Task-2/static/js/runtime-main.5a571155.js.map",
     "static/js/2.66cce5b7.chunk.js": "/LGM-VIP-WebDev-Task-2/static/js/2.66cce5b7.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5a571155.js",
     "static/js/2.66cce5b7.chunk.js",
     "static/css/main.84f696be.chunk.css",
-    "static/js/main.a86ad9de.chunk.js"
+    "static/js/main.ea95a9ab.chunk.js"
   ]
 }
