@@ -1,7 +1,7 @@
-.containerL{
+.containL{
     width: 80%;
     height: 75vh;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 10px;
     display: flex;
     align-items: center;

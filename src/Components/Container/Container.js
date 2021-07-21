@@ -20,15 +20,25 @@ function Container(props) {
                 setLoader(false);
                 
             })
-            
-        
+ 
             
     }
+
+    
     
 
     useEffect(() => {
+      const identifier = setTimeout(()=>{
         props.click &&
          getUsers();
+         
+      },1000)
+
+      return ()=>{
+        clearTimeout(identifier);
+        setLoader(true);
+      };
+        
     }, [props.click])
 
     
